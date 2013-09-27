@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonalAlbumCollection", "PersonalAlbumCollection\PersonalAlbumCollection.csproj", "{B763C678-BB11-40DF-83C1-4C62BA01204E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonalAlbumCollection.Tests", "PersonalAlbumCollection.Tests\PersonalAlbumCollection.Tests.csproj", "{871B1F1C-FE20-4564-A7A8-B51BA8D287A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonalAlbumViews", "PersonalAlbumViews\PersonalAlbumViews.csproj", "{1D08CBE5-78B1-45A1-AD9A-DBC08184B2C4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B763C678-BB11-40DF-83C1-4C62BA01204E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B763C678-BB11-40DF-83C1-4C62BA01204E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B763C678-BB11-40DF-83C1-4C62BA01204E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B763C678-BB11-40DF-83C1-4C62BA01204E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{871B1F1C-FE20-4564-A7A8-B51BA8D287A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{871B1F1C-FE20-4564-A7A8-B51BA8D287A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{871B1F1C-FE20-4564-A7A8-B51BA8D287A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{871B1F1C-FE20-4564-A7A8-B51BA8D287A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D08CBE5-78B1-45A1-AD9A-DBC08184B2C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D08CBE5-78B1-45A1-AD9A-DBC08184B2C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D08CBE5-78B1-45A1-AD9A-DBC08184B2C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D08CBE5-78B1-45A1-AD9A-DBC08184B2C4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
