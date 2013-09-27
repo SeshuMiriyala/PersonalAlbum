@@ -7,8 +7,8 @@ namespace PersonalAlbumCollection.Controllers
         public string Get()
         {
             var usr = User.Identity.Name;
-            //return System.Web.HttpContext.Current.User.Identity.Name;
-            return "Seshu";
+            return System.Web.HttpContext.Current.User.Identity.Name.Split('\\')[1].Trim('"');
+            //return "Seshu";
         }
     }
 }
