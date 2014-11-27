@@ -7,9 +7,12 @@
     </tr>
     <tr>
         <td>
-            <p bn-fade-helper class="viewport" style="margin-top: 100px;">
-                <img class="image" ng-src="{{source}}" alt="Image" />
-            </p>
+            <div bn-fade-helper class="viewport"  style="margin-top: 100px;">
+                <div class="image">
+                    <img ng-src="{{source.ImageUrl}}" alt="Image" id="imgPrimary" />
+                    <span id="imgTitle">{{source.ImageTitle}}</span>
+                </div>
+            </div>
         </td>
         <td></td>
     </tr>

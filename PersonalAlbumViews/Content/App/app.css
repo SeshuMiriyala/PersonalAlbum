@@ -1,50 +1,70 @@
-﻿p.viewport img.image.fadeOut {
-    left: 1000px;
+﻿div.fader.fadeOut {
+    left: 1050px;
     opacity: 0;
-    position: absolute;
-    border-radius: 5px 5px 5px 5px;
+    display: none;
 }
 
-p.viewport img.image.fadeIn {
+div.image.fadeIn {
+    left: 350px;
+    opacity: 1;
+    display: block;
+}
+
+div.image.hide1 {
     left: 0px;
     opacity: 0;
-    display: block;
-    position: absolute;
-    border-radius: 5px 5px 5px 5px;
-}
-
-    p.viewport img.image {
-        border-radius: 5px 5px 5px 5px;
-        box-shadow: 1px 1px 5px #454545;
-        display: block;
-        opacity: 1;
-        left: 500px;
-        position: absolute;
-        transition: left 2s ease-out,opacity 2s ease-in !important;
-    }
-
-
-p.viewport img.fader.show {
-    display: block;
-    position: absolute;
-    box-shadow: 1px 1px 5px #454545;
-}
-
-p.viewport img.fader {
-    border-radius: 5px 5px 5px 5px;
     display: none;
-    left: 500px;
-    position: absolute;
+}
+
+div.image {
+    display: block;
+    opacity: 0;
+    left: -600px;
+    transition: left 2s ease-out,opacity 2s ease-in !important;
+    height: 700px;
+    width: 790px;
+}
+
+div.fader.show {
+    display: block;
+}
+
+div.fader {
+    display: none;
+    left: 350px;
     top: 0px;
-    z-index: 2;
     transition: left 2s,opacity 2s !important;
+    height: 700px;
+    width: 790px;
 }
 
-p.viewport {
+span {
+    text-align: left;
+    vertical-align: top;
+    margin-left: 10px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+img {
+    height: 700px;
+    width: 700px;
+    box-shadow: 1px 1px 5px #454545;
     border-radius: 5px 5px 5px 5px;
-    
-    position: relative;
-    width: auto;
 }
 
+body{
+    background: lightgray;
+}
+div {
+    height: auto;
+    width: auto;
+    white-space: nowrap;
+    position: absolute;
+    top: 0;
+}
 
+table {
+    border-spacing: 2px !important;
+}
